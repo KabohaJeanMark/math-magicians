@@ -4,10 +4,10 @@ import ButtonPanel from './ButtonPanel';
 
 function App() {
   return (
-    <fragment>
-      <Display />
+    <>
+      <Display result="0" />
       <ButtonPanel />
-    </fragment>
+    </>
   );
 }
 
