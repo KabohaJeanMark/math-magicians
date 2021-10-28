@@ -1,8 +1,11 @@
+import Button from './Button';
+
 function ButtonPanel() {
   return (
-    <div>
+    <>
       <p>ButtonPanel component</p>
-    </div>
+      <Button name="AC" />
+    </>
   );
 }
 
