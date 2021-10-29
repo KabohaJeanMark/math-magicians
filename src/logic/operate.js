@@ -1,6 +1,6 @@
 import Big from 'big.js';
 
-function operate(numberOne, numberTwo, operation) {
+const operate = (numberOne, numberTwo, operation) => {
   let total;
   const num1 = new Big(numberOne);
   const num2 = new Big(numberTwo);
@@ -14,6 +14,6 @@ function operate(numberOne, numberTwo, operation) {
     total = num1 / num2;
   }
   return total;
-}
+};
 
 export default operate;
