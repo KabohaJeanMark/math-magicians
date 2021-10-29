@@ -2,16 +2,16 @@ import Big from 'big.js';
 
 function operate(numberOne, numberTwo, operation) {
   let total;
+  const num1 = new Big(numberOne);
+  const num2 = new Big(numberTwo);
   if (operation === '-') {
-    total = Big(numberOne) - Big(numberTwo);
+    total = num1 - num2;
   } else if (operation === '+') {
-    total = Big(numberOne) + Big(numberTwo);
+    total = num1 + num2;
   } else if (operation === '*') {
-    total = Big(numberOne) * Big(numberTwo);
-  } else if (operation === '/') {
-    total = Big(numberOne) / Big(numberTwo);
+    total = num1 * num2;
   } else {
-    total = Big(numberOne) / 100;
+    total = num1 / num2;
   }
   return total;
 }
