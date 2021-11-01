@@ -28,9 +28,10 @@ class App extends React.Component {
   }
 
   render() {
+    const { total } = this.state;
     return (
       <>
-        <Display result="0" />
+        <Display result={total} />
         <ButtonPanel />
       </>
     );
