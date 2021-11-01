@@ -7,9 +7,9 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      total: null,
-      next: null,
-      operation: null,
+      total: 0,
+      next: undefined,
+      operation: undefined,
     };
     this.handleClick = this.handleClick.bind(this);
   }
@@ -32,7 +32,7 @@ class App extends React.Component {
     return (
       <>
         <Display result={total} />
-        <ButtonPanel />
+        <ButtonPanel clickhandler={handleClick} />
       </>
     );
   }

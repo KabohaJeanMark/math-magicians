@@ -1,6 +1,6 @@
 import Button from './Button';
 
-const ButtonPanel = () => (
+const ButtonPanel = ({clickhandler}) => (
   <>
     <div>
       <Button name="AC" />
