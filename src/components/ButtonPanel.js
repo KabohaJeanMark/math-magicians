@@ -1,37 +1,42 @@
+import PropTypes from 'prop-types';
 import Button from './Button';
 
-const ButtonPanel = () => (
+const ButtonPanel = ({ clickHandler }) => (
   <>
     <div>
-      <Button name="AC" />
-      <Button name="+/-" />
-      <Button name="%" />
-      <Button name="÷" />
+      <Button buttonClickMethod={clickHandler} name="AC" />
+      <Button buttonClickMethod={clickHandler} name="+/-" />
+      <Button buttonClickMethod={clickHandler} name="%" />
+      <Button buttonClickMethod={clickHandler} name="÷" />
     </div>
     <div>
-      <Button name="7" />
-      <Button name="8" />
-      <Button name="9" />
-      <Button name="X" />
+      <Button buttonClickMethod={clickHandler} name="7" />
+      <Button buttonClickMethod={clickHandler} name="8" />
+      <Button buttonClickMethod={clickHandler} name="9" />
+      <Button buttonClickMethod={clickHandler} name="X" />
     </div>
     <div>
-      <Button name="4" />
-      <Button name="5" />
-      <Button name="6" />
-      <Button name="-" />
+      <Button buttonClickMethod={clickHandler} name="4" />
+      <Button buttonClickMethod={clickHandler} name="5" />
+      <Button buttonClickMethod={clickHandler} name="6" />
+      <Button buttonClickMethod={clickHandler} name="-" />
     </div>
     <div>
-      <Button name="1" />
-      <Button name="2" />
-      <Button name="3" />
-      <Button name="+" />
+      <Button buttonClickMethod={clickHandler} name="1" />
+      <Button buttonClickMethod={clickHandler} name="2" />
+      <Button buttonClickMethod={clickHandler} name="3" />
+      <Button buttonClickMethod={clickHandler} name="+" />
     </div>
     <div>
-      <Button name="0" />
-      <Button name="." />
-      <Button name="=" />
+      <Button buttonClickMethod={clickHandler} name="0" />
+      <Button buttonClickMethod={clickHandler} name="." />
+      <Button buttonClickMethod={clickHandler} name="=" />
     </div>
   </>
 );
+
+ButtonPanel.propTypes = {
+  clickHandler: PropTypes.func.isRequired,
+};
 
 export default ButtonPanel;
