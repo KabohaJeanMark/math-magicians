@@ -1,3 +1,9 @@
 .Display {
   display: flex;
+  background-color: grey;
+  height: 100px;
+  color: white;
+  font-weight: bold;
+  padding: 0.8rem;
+  text-align: right;
 }
