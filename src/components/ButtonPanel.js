@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
 import Button from './Button';
+import '../styles/ButtonPanel.css';
 
 const ButtonPanel = ({ clickHandler }) => (
-  <>
+  <div className="ButtonPanel">
     <div>
       <Button buttonClickMethod={clickHandler} name="AC" />
       <Button buttonClickMethod={clickHandler} name="+/-" />
@@ -32,7 +33,7 @@ const ButtonPanel = ({ clickHandler }) => (
       <Button buttonClickMethod={clickHandler} name="." />
       <Button buttonClickMethod={clickHandler} name="=" />
     </div>
-  </>
+  </div>
 );
 
 ButtonPanel.propTypes = {
