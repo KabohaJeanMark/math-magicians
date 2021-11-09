@@ -28,7 +28,7 @@ const ButtonPanel = ({ clickHandler }) => (
       <Button buttonClickMethod={clickHandler} name="3" />
       <Button buttonClickMethod={clickHandler} name="+" />
     </div>
-    <div className="buttonRow">
+    <div className="buttonRow lastRow">
       <Button buttonClickMethod={clickHandler} name="0" />
       <Button buttonClickMethod={clickHandler} name="." />
       <Button buttonClickMethod={clickHandler} name="=" />

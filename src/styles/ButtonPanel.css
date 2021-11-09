@@ -11,3 +11,7 @@
   background-color: red;
   margin: 2px;
 }
+
+.lastRow .Button {
+  width: 33%;
+}
