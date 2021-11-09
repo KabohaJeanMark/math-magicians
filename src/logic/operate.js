@@ -10,7 +10,7 @@ const operate = (numberOne, numberTwo, operation) => {
     total = num1.sub(num2);
   } else if (operation === '+') {
     total = num1.add(num2);
-  } else if (operation === 'X') {
+  } else if (operation === 'x') {
     total = num1.times(num2);
   } else if (operation === '÷') {
     total = num1.div(num2);
