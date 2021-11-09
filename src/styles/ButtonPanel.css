@@ -1,8 +1,13 @@
 .ButtonPanel {
   display: flex;
+  width: 700px;
+  background-color: aqua;
   flex-direction: column;
 }
 
 .buttonRow {
+  display: flex;
   height: 100px;
+  background-color: red;
+  margin: 2px;
 }

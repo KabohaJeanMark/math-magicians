@@ -4,6 +4,6 @@
   height: 100px;
   color: white;
   font-weight: bold;
-  padding: 0.8rem;
-  text-align: right;
+  padding: 0.2rem;
+  justify-content: flex-end;
 }
