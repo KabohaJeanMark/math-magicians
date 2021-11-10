@@ -1,6 +1,6 @@
 import Navbar from './NavBar';
 import Header from './Header';
-import image from '../assets/math.jpg';
+import image from '../assets/einstein.jpg';
 
 const Quote = () => (
   <div>
@@ -9,9 +9,11 @@ const Quote = () => (
       <Navbar />
     </div>
     <div className="container jumbotron">
-      <img src={image} alt="math icon" />
-      <p>Human problems arise from man not being able to sit alone in a room and be quiet.</p>
-      <p> Blaise Pascal </p>
+      <img src={image} alt="Albert Einstein with his tongue out" />
+      <p>&#34;Everybody is a genius.</p>
+      <p>But if you judge a fish by its ability to climb a tree...</p>
+      <p>It will live its whole life believing that it is stupid.&#34;</p>
+      <p> Albert Einstein </p>
     </div>
   </div>
 );
