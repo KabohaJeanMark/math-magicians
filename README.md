@@ -2,6 +2,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 > A React Calculator Application for Math Magicians Inc. Set up with create-react-app.
+It has 3 pages, a Home, Calculate and Quote page. The navigation is linked using react-router-dom. 
+
+### Calculate Page
+![screenshot](src/assets/calculate.png)
 
 ## Live Demo
 [Live site](https://marco-math-magicians.herokuapp.com/)
@@ -27,6 +31,21 @@ $ cd yourFolder
 $ git clone https://github.com/KabohaJeanMark/math-magicians/
 
 ```
+
+## How to Use
+Navigate to the home page by default. You have a navigation menu to link to the rest of the pages, Calculate and Quote.
+
+### Home Page
+![screenshot](src/assets/home.png)
+
+### Calculate Page
+![screenshot](src/assets/calculate.png)
+
+In this page, you can do calculations by typing into the Calculator and viewing the Displayed results.
+
+### Quote Page
+![screenshot](src/assets/quote.png)
+
 
 ## Available Scripts
 
