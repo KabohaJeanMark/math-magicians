@@ -1,0 +1,4 @@
+.Calculator {
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -1,5 +1,7 @@
 import Navbar from './NavBar';
 import Header from './Header';
+import App from './App';
+import '../styles/MathMagicians.css';
 
 const Calculator = () => (
   <div>
@@ -7,7 +9,10 @@ const Calculator = () => (
       <Header />
       <Navbar />
     </div>
-    <h1>Hello from Calculator</h1>
+    <div className="Calculator">
+      <h1>Let Us do some Math</h1>
+      <App />
+    </div>
   </div>
 );
 
