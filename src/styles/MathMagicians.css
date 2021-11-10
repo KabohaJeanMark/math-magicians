@@ -1,4 +1,23 @@
+.navHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: orange;
+  margin-bottom: 0.5rem;
+}
+
+.navHeader a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .Calculator {
   display: flex;
   justify-content: space-evenly;
 }
+
+.Center {
+  width: 50%;
+  margin: 0 auto;
+}
+

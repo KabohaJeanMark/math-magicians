@@ -1,6 +1,6 @@
 import Navbar from './NavBar';
 import Header from './Header';
-import image from '../assets/einstein.jpg';
+import image from '../assets/mathgirl.png';
 
 const Home = () => (
   <div>
@@ -8,9 +8,11 @@ const Home = () => (
       <Header />
       <Navbar />
     </div>
-    <h1>Welcome to the Math Magicians Home Page</h1>
-    <img src={image} alt="Einstein with tongue out" />
-    <p>Mathematics is another way to think; the fiber connecting the intricacies of the world.</p>
+    <div className="container jumbotron">
+      <h3>Welcome to the Math Magicians Home Page</h3>
+      <img className="img-fluid Center" src={image} alt="A girl practicing Math" />
+      <p>Mathematics is another way to think; the fiber connecting the intricacies of the world.</p>
+    </div>
   </div>
 );
 

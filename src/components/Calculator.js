@@ -10,7 +10,7 @@ const Calculator = () => (
       <Navbar />
     </div>
     <div className="Calculator">
-      <h1>Let Us do some Math</h1>
+      <h3>Let Us do some Math</h3>
       <App />
     </div>
   </div>

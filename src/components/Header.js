@@ -1,6 +1,6 @@
 const Header = () => (
   <div>
-    <h1>Math Magicians</h1>
+    <h2>Math Magicians</h2>
   </div>
 );
 
