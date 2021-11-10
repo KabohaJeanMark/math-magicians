@@ -1,13 +1,13 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import App from './App';
+import Calculator from './Calculator';
 import Home from './Home';
 import Quote from './Quote';
 
 const RouteSwitch = () => (
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} exact />
-      <Route path="/Home" element={<Home />} />
+      <Route path="/" element={<Home />} exact />
+      <Route path="/Calculator" element={<Calculator />} />
       <Route path="/Quote" element={<Quote />} />
     </Routes>
   </BrowserRouter>
