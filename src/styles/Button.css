@@ -1,0 +1,11 @@
+.Button {
+  width: 25%;
+  height: 100%;
+  margin: 0.1rem;
+  justify-content: center;
+}
+
+.eachButton {
+  height: 100%;
+  width: 100%;
+}

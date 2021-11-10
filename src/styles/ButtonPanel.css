@@ -1,0 +1,19 @@
+.ButtonPanel {
+  display: flex;
+  width: 700px;
+  flex-direction: column;
+}
+
+.buttonRow {
+  display: flex;
+  height: 100px;
+  margin: 2px;
+}
+
+.lastRow:first-child {
+  width: 50%;
+}
+
+.sideRow .Button button {
+  background-color: orange;
+}

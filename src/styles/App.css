@@ -1,0 +1,7 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  font-size: 2.5rem;
+  background-color: rgb(182, 176, 176);
+}
