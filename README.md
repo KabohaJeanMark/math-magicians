@@ -1,19 +1,22 @@
 # math-magicians
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> A React Calculator Application for Math Magicians Inc. Set up with create-react-app.
-It has 3 pages, a Home, Calculate and Quote page. The navigation is linked using react-router-dom. 
+> A React Calculator Application for Math Magicians Inc.
+
+It has 3 pages, a Home, Calculate and Quote page. The navigation is linked using react-router-dom. The calculator app is mounted as a component on the Calculate page.
+
+Logic is written to provide for calculations breaking the Calculator app into the components Display, ButtonPanel and Button for individual buttons. Event-handling is used when buttons are clicked to pass props to the App component that contains the calculate method with logic of how to deal with the various components.
 
 ### Calculate Page
 ![screenshot](src/assets/calculate.png)
 
 ## Live Demo
-[Live site](https://marco-math-magicians.herokuapp.com/)
+[Heroku link](https://marco-math-magicians.herokuapp.com/)
 
 ## Built With
 
 - HTML5 & CSS3, & JavaScript
-- ReactJS
+- ReactJS, react-router-dom
 
 ## Instructions
 To get a local copy up and running follow these simple example steps.
@@ -62,17 +65,7 @@ You will also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Unit tests for the different components have been done using jest and @testing-library/react
 
 ## Author
 
