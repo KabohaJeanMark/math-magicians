@@ -26,8 +26,13 @@ const Button = ({
 Button.propTypes = {
   name: PropTypes.string.isRequired,
   buttonClickMethod: PropTypes.func.isRequired,
-  color: PropTypes.string.isRequired,
-  wide: PropTypes.string.isRequired,
+  color: PropTypes.string,
+  wide: PropTypes.string,
+};
+
+Button.defaultProps = {
+  color: 'lightgrey',
+  wide: '25%',
 };
 
 export default Button;
